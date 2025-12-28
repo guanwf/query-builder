@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: query-builder
+
+server:
+  port: 7701
+  servlet:
+    context-path: /
+  tomcat:
+    max-connections: 2000
+    max-threads: 200
